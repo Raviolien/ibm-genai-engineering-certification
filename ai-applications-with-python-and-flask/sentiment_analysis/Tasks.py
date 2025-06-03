@@ -23,3 +23,7 @@ python3.11 test_sentiment_analysis.py
 # Task 6
 ## Deploy as web application using Flask 
 python3.11 server.py
+
+# Task 7
+## Incorporate Error handling
+python3.11 server.py
