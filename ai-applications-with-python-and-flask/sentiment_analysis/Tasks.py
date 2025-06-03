@@ -19,3 +19,7 @@ sentiment_analyzer("This is fun.")
 # Task 5
 ## Run Unit tests on your application
 python3.11 test_sentiment_analysis.py
+
+# Task 6
+## Deploy as web application using Flask 
+python3.11 server.py
