@@ -26,14 +26,16 @@ def sent_analyzer():
 
     # Extract the label and score from the response
     label = response['label']
+    label = label.split('_')[1]
     score = response['score']
 
     # Check if the label is None, indicating an error or invalid input
     if label is None:
         return "Invalid input! Try again."
-    else:
-        # Return a formatted string with the sentiment label and score
-        return "The given text has been identified as {} with a score of {}.".format(label.split('_')[1], score)
+    # Return a formatted string with the sentiment label and score
+    return (
+        f"The given text has been identified as {label} with a score of {score}."
+    )
 
 @app.route("/")
 def render_index_page():
@@ -44,6 +46,4 @@ def render_index_page():
     return render_template('index.html')
 
 if __name__ == "__main__":
-    ''' This functions executes the flask app and deploys it on localhost:5000
-    '''
     app.run(host="0.0.0.0", port=5000)

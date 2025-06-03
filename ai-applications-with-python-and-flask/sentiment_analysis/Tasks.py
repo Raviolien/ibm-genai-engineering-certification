@@ -27,3 +27,8 @@ python3.11 server.py
 # Task 7
 ## Incorporate Error handling
 python3.11 server.py
+
+# Task 8
+## Run static code analysis
+python3.11 -m pip install pylint
+pylint server.py
