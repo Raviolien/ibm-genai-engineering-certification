@@ -1,0 +1,1 @@
+Place pictures in this folder for the automate_local_drive_captioner.py to create captions
