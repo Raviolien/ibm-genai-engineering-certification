@@ -1,6 +1,6 @@
 ## cd to folder
 cd building_genai-powered_applications_w_python
-cd chat_bot
+cd chatbot
 
 ### Create venv
 python3 -m venv venv
