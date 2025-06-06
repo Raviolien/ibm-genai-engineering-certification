@@ -3,7 +3,7 @@
 ## How to set up
 
 ### cd to folder
-cd "AI Applications with Python and Flask"
+cd ai-applications-with-python-and-flask
 cd first_app
 
 ### Create venv
@@ -18,7 +18,7 @@ pip install "Flask==3.0.0"
 ## How to run
 
 ### cd to folder
-cd "AI Applications with Python and Flask"
+cd ai-applications-with-python-and-flask
 cd first_app
 
 ### Activate venv
